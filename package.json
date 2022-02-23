@@ -1,0 +1,14 @@
+{
+  "name": "s3-sql-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.52.0",
+    "aws-sdk": "^2.1079.0",
+    "nodemon": "^2.0.15"
+  }
+}
